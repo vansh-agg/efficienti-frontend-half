@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+  <title>Procastination Calculator</title>
+  <link rel="stylesheet" href="/css/utility.css">
+  <link rel="stylesheet" href="/css/procastination.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <!-- SCROLLBAR  -->
+  <div class="header1">
+    <div class="progress-container1">
+      <div class="progress-bar1" id="myBar1"></div>
+    </div>
+  </div>
+  <!-- SCROLLBAR ENDS  -->
+  <!-- SIDEBAR   -->
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="sidebar d-flex flex-column flex-shrink-0 p-3 " style="width: 280px; height: 100vh;background-color: #222831;
+    color: white;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-light text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <span class="fs-4" style=" font-family:  cursive; font-weight: bold;">efficienti</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link link-light" aria-current="page">
+          <img src="/images/home icon.png" alt="" width="32" height="32" class="rounded-circle me-2">
+          <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg> -->
+          Home
+        </a>
+      </li>
+      <li>
+      <li>
+        <a href="#" class="nav-link link-light">
+          <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg> -->
+          <img src="/images/graph.png" alt="" width="32" height="32" class="rounded-circle me-2">
+          Invent your efficienti
+        </a>
+      </li>
+      <a href="#" class="nav-link link-light">
+        <img src="/images/profile.svg" alt="" width="32" height="32" class="rounded-circle me-2">
+        <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg> -->
+        Dashboard
+      </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link link-light active">
+          <img src="/images/task scheduler.svg" alt="" width="32" height="32" class="rounded-circle me-2">
+          <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg> -->
+          Task Scheduler
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link link-light">
+          <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg> -->
+          <img src="/images/Techniques.svg" alt="" width="32" height="32" class="rounded-circle me-2">
+          Boost Producitivity
+        </a>
+      </li>
+    </ul>
+    <hr>
+   <!-- SIDEBAR ENDS   -->
+
+
+
+
+
+
+
+   
+<!-- ADDING FUNCTIONALITY -->
+
+  </div>
+  
+    </div>
+    
+    <div class="col-8">
+      
+      <!-- PROCASTION SCORE  -->
+      
+      <div class="row d-flex justify-content-center mt-5" style="background-color: black; width: 80%;">
+        
+        <div class="col-6">
+
+          
+
+            <div class="progress blue"  style="background-color: transparent;">
+              
+              <span class="progress-left">
+                
+                                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">90%</div>
+              
+            </div>
+            
+            <div class="row d-flex justify-content-center  mt-5"><h2 class="col-6" style="color: rgb(83, 149, 255);">Procastination Score</h2></div>
+            
+              <!-- <div class="progress yellow">
+                <span class="progress-left">
+                                <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                                <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">37.5%</div>
+              </div> -->
+            
+
+
+           
+        </div>
+       
+    </div>
+    
+      <div class="container" >
+        
+        
+        <!-- START OF 1 CARD ROW  -->
+        <div class="row mt-3">
+          <div class="col-6">
+            <!-- 1 of 3 -->
+            <div class="container" >
+              <div class="row">
+                <div class="col-6"></div>
+                <div class="card text-center col-4 mt-5 col-sm-10 p-0 text-info"style="background-color: black;">
+                  <div class="card-body ">
+                    <h5 class="card-title ">Add Task -> <button type="button" class="btn btn-info"><p>+</p></button></h5>
+                  </div>
+                 
+                </div>
+        
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <!-- 2 of 3 (wider) -->
+          </div>
+          
+        </div>
+
+        <!-- END OF ONE CARD ROW  -->
+
+<!-- START OF ACTUAL CARD ROW  -->
+        <div class="row mt-3">
+          <div class="col-4">
+            <!-- 1 of 3
+            hefadbfkaebk -->
+            
+            <!-- CARDS  -->
+            
+            <div class="container" >
+              <div class="row">
+                <div class="col-6"></div>
+                <div class="card text-center col-4 mt-5 col-sm-10 p-0" style="background-color: black;">
+                 
+                  <div class="card-body"style="color: grey;">
+                    <h5 class="card-title">Task: </h5>
+                    <p class="card-text"><form >
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control m-1" placeholder="S.no">
+                          <input type="text" class="form-control m-1" placeholder="Input Title">
+                        </div>
+                      </div>
+                    </form></p>
+                    <div class="card-body"style="color: grey;">
+                      <h5 class="card-title">Deadline</h5>
+                      <p class="card-text">In Hours : 23 (for 11 pm)</p>
+                      <p class="card-text"><form>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control m-1" placeholder="Input Deadline">
+                          </div>
+                        </div>
+                      </form></p>
+          
+                    </div>
+                    <button type="button" class="btn btn-success">Submit</button>
+        
+                  </div>
+                 
+                </div>
+        
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6">
+            <!-- 3 of 3 -->
+            <div class="container" >
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="card text-center col-4 mt-5 col-sm-10 p-0" style="background-color: black;">
+                 
+                  <div class="card-body"style="color: grey;">
+                    <h5 class="card-title">Completion Time</h5>
+                    <p class="card-text">Days= 0, Time= 2  (for 2 am)</p>
+                    <p class="card-text"><form>
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control m-1" placeholder="S.no">
+                          <input type="text" class="form-control m-1" placeholder="Input Time">
+                        </div>
+                      </div>
+                    </form></p>
+                    <p class="card-text"><button type="button" class="btn btn-info">Submit</button></p>
+                    <p class="card-text">Points Awarded= <p style="color: blueviolet;">0.4</p>(Dealine- Completion Time) /100</p>
+                    
+        
+                  </div>
+                 
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<!-- END OF ONE ACTUAL CARd ROW  -->
+
+
+        <!-- PAGINATION  -->
+        <div class="row mt-5 mb-5" >
+          <div class="col-3" >
+            <!-- 1 of 3 -->
+          </div>
+          <div class="col-4">
+            <!-- 2 of 3 (wider) -->
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item disabled" >
+                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#" >1</a></li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">2 </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-4">
+            <!-- 1 of 3 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  
+  <footer class="text-center text-lg-start bg-dark  text-white">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <!-- <span>Get connected with us on social networks:</span> -->
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>efficienti
+            </h6>
+            <p>
+              A platform for company-employee productivity analytics. To improve efficiency at work, team building and
+              help with descision making.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Employee Analytics</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Procastination Score</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Productivity Techniques</a>
+            </p>
+            <p>
+              <!-- <a href="#!" class="text-reset"></a> -->
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Profile</a>
+            </p>
+            <p>
+              <!-- <a href="#!" class="text-reset"></a> -->
+            </p>
+            <p>
+              <!-- <a href="#!" class="text-reset">Help</a> -->
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> NSUT, Dwarka sector-3, New Delhi,</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              efficienti@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> +91 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> +91 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div> -->
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script src="/js/utility.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+</body>
+
+</html>
