@@ -1,4 +1,22 @@
+body {
+	background: linear-gradient(-45deg, #308191, #e73c7e, #341146, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+  font-family: 'JetBrains Mono', monospace;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
 
@@ -9,7 +27,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #705f4a;
+    /* background-color: #705f4a; */
     height: 60vh !important;
     display: flex;
     justify-content: center;
@@ -31,15 +49,7 @@
 
 }
 
-.cover-heading {
-    /* background-color: rgba(0, 0, 0, 0.299); */
-    /* padding: 1rem; */
-    
-    font-family: 'Mrs Saint Delafield', cursive;
-    /* font-size:8rem; */
-    text-align: center;
-    width: 30%;
-}
+
 .cover-subheading {
     font-family: 'Mrs Saint Delafield', cursive;
     background-color: rgba(0, 0, 0, 0.215);
@@ -69,6 +79,10 @@
     font-weight: bolder;
 }
 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
 
 @media screen and (max-width:1200px) {
 }
@@ -82,11 +96,16 @@
         height: 70vh !important;
         background-size: 140%;
     }
+    .dissapear{
+        display: none;
+    }
+    
 }
 @media screen and (max-width:600px) {
     .cover-photo{
         background-size: 180%;
     }
+    
 }
 @media screen and (max-width:400px) {
     .cover-subheading{
