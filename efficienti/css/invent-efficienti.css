@@ -1,0 +1,25 @@
+body {
+	background: linear-gradient(-45deg, #0ecccc, #0b1535, #b10058, #e4893f);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.card-body{
+    background-color: #171b21;
+}

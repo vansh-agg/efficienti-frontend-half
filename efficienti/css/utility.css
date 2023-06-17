@@ -2,12 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-body {
-    font-family: 'JetBrains Mono', monospace;
-}
+
+
+
 .navbar{
     background-color: #EEEEEE;
     /* background-color: #5c4435; */
+}
+.cover-heading {
+  /* background-color: rgba(0, 0, 0, 0.299); */
+  /* padding: 1rem; */
+  
+  font-family: 'Mrs Saint Delafield', cursive;
+  /* font-size:8rem; */
+  text-align: center;
+  width: 30%;
 }
 
 
@@ -96,3 +105,16 @@ body {
   }
 
   /* FLIP CARD ENDS  */
+
+
+/* FORM EDITING  */
+
+
+input[type="text"], textarea {
+
+  border: none;
+  background-color : #a48e8e; 
+
+}
+
+
